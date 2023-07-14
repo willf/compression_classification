@@ -1,6 +1,6 @@
-# Joyfully
+# compression_classification
 
-[![Python package](https://github.com/willf/joyfully/actions/workflows/test.yml/badge.svg)](https://github.com/willf/joyfully/actions/workflows/test.yml)
+[![Python package](https://github.com/willf/compression_classification/actions/workflows/test.yml/badge.svg)](https://github.com/willf/compression_classification/actions/workflows/test.yml)
 
 Write more joyful code.
 
@@ -13,21 +13,21 @@ Free free to use it for your own projects, or to fork it and make your own templ
 ## Installation
 
 ```shell
-pip install joyfully
+pip install compression_classification
 ```
 
 ## Usage
 
 ```python
-from joyfully import joyfully
+from compression_classification import compression_classification
 
 
-print(joyfully.hello_world())
+print(compression_classification.hello_world())
 ```
 
 ## Contributing
 
-We welcome contributions to Joyfully. Please see our [contributing guidelines](contributing.md) for more information.
+We welcome contributions to compression_classification. Please see our [contributing guidelines](contributing.md) for more information.
 
 ## Code of Conduct
 

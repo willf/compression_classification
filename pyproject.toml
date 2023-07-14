@@ -1,15 +1,14 @@
 [tool.poetry]
-name = "joyfully"
+name = "compression_classification"
 version = "0.1.0"
-description = "Write more joyful code"
+description = "Classify using compression algorithms"
 authors = ["Will Fitzgerald <37049+willf@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "joyfully", from = "src"}]
+packages = [{include = "compression_classification", from = "src"}]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.7" # minimum version.
-
 
 [tool.poetry.dev-dependencies]
 black = "^22.8.0"

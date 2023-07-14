@@ -8,7 +8,7 @@ This is the contribute.md of our project. Great to have you here! Here are a few
 
 ## Learn & listen
 
-We use [GitHub issues] to report bugs and discuss potential features and improvements. If you have a question, please [search the issues](https://github.com/willf/joyfully/issues) to see if it has already been answered. If not, please [open a new issue](https://github.com/willf/joyfully/issues/new)!
+We use [GitHub issues] to report bugs and discuss potential features and improvements. If you have a question, please [search the issues](https://github.com/willf/compression_classification/issues) to see if it has already been answered. If not, please [open a new issue](https://github.com/willf/compression_classification/issues/new)!
 
 ## Contribute code
 
@@ -29,4 +29,4 @@ Use the same process as for contributing code! Code is data! Data is code!
 
 ## Your first contribution
 
-If you're looking for a good first contribution, look for issues with the [good first issue](https://github.com/willf/joyfully/labels/good%20first%20issue) label.
+If you're looking for a good first contribution, look for issues with the [good first issue](https://github.com/willf/compression_classification/labels/good%20first%20issue) label.
