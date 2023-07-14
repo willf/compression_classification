@@ -1,11 +1,9 @@
-
 import zlib
 
 from sklearn.base import BaseEstimator, ClassifierMixin, RegressorMixin
 
 
 class CompressionClassifier(BaseEstimator, ClassifierMixin):
-
     def __init__(self):
         self.models = {}
 
@@ -17,7 +15,6 @@ class CompressionClassifier(BaseEstimator, ClassifierMixin):
                 self.models[y_val] = model
             for x in x_val:
                 model.compress(str(x).encode())
-
 
     def predict(self, X, y=None):
         # make a shallow copy of the models
@@ -35,7 +32,9 @@ class CompressionClassifier(BaseEstimator, ClassifierMixin):
         return min(results, key=lambda x: x[1])[0]
 
     def predict_proba(self, X, y=None):
-        raise NotImplementedError("CompressionClassifier does not support predict_proba")
+        raise NotImplementedError(
+            "CompressionClassifier does not support predict_proba"
+        )
 
     def train_with_examples(self, example_dict):
         for key, value in example_dict.items():
