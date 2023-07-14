@@ -4,7 +4,7 @@
 
 Compression Classification is a Python package for classifying via compression.
 
-It is inspired by my talk on "Stupid Entropy Tricks" (reference to come) and  [“Low-Resource” Text Classification: A Parameter-Free Classification
+It is inspired by my talk on "[Stupid Language Tricks](https://www.entish.org/lang-id-preso/lang-id-preso.pdf)" and  [“Low-Resource” Text Classification: A Parameter-Free Classification
 Method with Compressors](https://aclanthology.org/2023.findings-acl.426.pdf)
 
 Simple example:
