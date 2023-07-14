@@ -38,6 +38,15 @@ Out[9]: 'zh'
 
 We welcome contributions to compression_classification. Please see our [contributing guidelines](contributing.md) for more information.
 
+To install the package for development, install [poetry](https://python-poetry.org/) and then run:
+
+```bash
+gh repo clone willf/compression_classification
+cd compression_classification
+poetry install
+poetry shell
+```
+
 ## Code of Conduct
 
 We expect project participants to adhere to our [Code of Conduct](code-of-conduct.md).
