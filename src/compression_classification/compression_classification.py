@@ -22,7 +22,8 @@ def readtext(path):
     with open(path) as f:
         return f.read()
 
-class CompressionClassifier():
+
+class CompressionClassifier:
     def __init__(self, n=4):
         self.models = {}
         self.n = n
@@ -41,7 +42,7 @@ class CompressionClassifier():
         for c in classes:
             model = self.models[c]
             perprlexity = model.perplexity(tokenized)
-            perplexity_values[c] =  perprlexity
+            perplexity_values[c] = perprlexity
         return perplexity_values
 
     def predict(self, text):
