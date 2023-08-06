@@ -10,26 +10,16 @@ Method with Compressors](https://aclanthology.org/2023.findings-acl.426.pdf)
 Simple example:
 
 ```python
-In [4]: from compression_classification import compression_classification
+from compression_classification import compression_classification
+clr = compression_classification.CompressionClassifier()
+clr.train("FilterGenie 的基础设施旨在处理大量数据而不影响性能。 无论您拥有小型项目还是大型企业应用程序，我们 的 API 都可以轻松扩展以满足您的需求。", "zh")
+clr.train("FilterGenie's infrastructure is built to handle high volumes of data without compromising performance. Whether you have a small-scale project or a large enterprise application, our API scales effortlessly to meet your needs.", "en")
 
+clr.predict("This is the day they give babies away")
+'en'
 
-In [5]:
-
-In [5]: clr = compression_classification.CompressionClassifier()
-
-In [6]: clr
-Out[6]: CompressionClassifier()
-
-In [7]: clr.train_with_examples({"zh": "FilterGenie 的基础设施旨在处理大量数据而不影响性能。 无论您拥有小型项目还是大型企业应用程序，我们
-   ...: 的 API 都可以轻松扩展以满足您的需求。", "en": "FilterGenie's infrastructure is built to handle high volumes of data without compro
-   ...: mising performance. Whether you have a small-scale project or a large enterprise application, our API scales effortlessly to meet
-   ...: your needs."})
-
-In [8]: clr.predict_text("This is the day they give babies away")
-Out[8]: 'en'
-
-In [9]: clr.predict_text("这一天是他们送孩子的日子")
-Out[9]: 'zh'
+clr.predict("这一天是他们送孩子的日子")
+'zh'
 ```
 
 
