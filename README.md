@@ -22,6 +22,7 @@ clr.predict("这一天是他们送孩子的日子")
 'zh'
 ```
 
+In general, you'll want a lot more data, though.
 
 
 ## Contributing
