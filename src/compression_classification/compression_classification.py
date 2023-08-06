@@ -1,9 +1,7 @@
 import itertools
 
-import pandas as pd
-from nltk.lm import KneserNeyInterpolated, Vocabulary
+from nltk.lm import KneserNeyInterpolated
 from nltk.lm.preprocessing import padded_everygram_pipeline
-from sklearn.base import BaseEstimator, ClassifierMixin
 
 # Ok, next pass is to forget using Pandas and just have
 # a list of sentences. I'm not sure I'm ever going to
